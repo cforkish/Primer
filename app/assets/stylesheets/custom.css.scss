@@ -200,12 +200,23 @@ input {
   line-height: 30px;
   display: block;
   text-align: center;
-  margin: auto auto 30px auto;
+  margin: auto auto 5px auto;
 }
 
 #mc-embedded-subscribe {
   display: block;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 25px auto auto auto;
+}
+
+#mce-error-response.alert-error {
+  width: 384px;
+  margin: auto auto auto auto;
+  font-size: 14px;
+  padding: 0;
+}
+
+#mce-success-response.alert-success {
+  width: 384px;
+  margin: auto auto auto auto;
 }
